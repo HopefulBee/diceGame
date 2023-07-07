@@ -8,9 +8,6 @@ var randomNumber2 = Math.random();
 randomNumber2 = randomNumber2 * 6;
 randomNumber2 = Math.floor(randomNumber2) + 1;
 
-// let randomNumber1 = Math.floor(Math.random() * 6) + 1;
-// let randomNumber2 = Math.floor(Math.random() * 6) + 1;
-
 if (randomNumber1 === 1) {
   document.querySelector(".img1").setAttribute("src", "images/dice1.png");
 } else if (randomNumber1 === 2) {
